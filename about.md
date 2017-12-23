@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A deep learning researcher, a .NET developer, and a good learner.
 
 ### More Information
 
