@@ -8,7 +8,7 @@ A deep learning researcher, a .NET developer, and a good learner.
 
 ### More Information
 
-![](images/No.png)
+![](/images/No.png)
 
 ### Contact me
 
