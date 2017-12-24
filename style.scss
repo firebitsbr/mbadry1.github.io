@@ -297,6 +297,17 @@ footer {
 		li {
 			list-style: none;
 			display: inline-block;
+			a {
+				font-size: 14px;
+				color: #404040;
+				min-width: 24px;
+				line-height: 24px;
+				display: block;
+				text-align: center; 
+				&:hover {
+					text-decoration: underline;
+				}
+			}
 		}
 	}
 }
