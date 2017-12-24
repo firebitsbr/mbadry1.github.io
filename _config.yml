@@ -55,7 +55,8 @@ baseurl: ""
 
 paginate: 3
 
-permalink: /:title/
+paginate_path: "posts/page:num/"
+
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
