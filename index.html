@@ -15,7 +15,7 @@ layout: default
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
-<div class="pgggg">
+<div class="pagination">
  <ul>
 {% if paginator.previous_page %}
  <li class="prev"><a href="/posts/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">Previous</a></li>
