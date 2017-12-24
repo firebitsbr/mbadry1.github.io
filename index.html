@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /posts/
 ---
 
 <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
@@ -15,7 +16,7 @@ layout: default
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
-<div class="paginatioon">
+<div class="pagination">
  <ul>
 {% if paginator.previous_page %}
  <li class="prev"><a href="/posts/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">Previous</a></li>
