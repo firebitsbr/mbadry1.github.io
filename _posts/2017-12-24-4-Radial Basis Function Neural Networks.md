@@ -19,7 +19,7 @@ This post will explain what is a radial basis function neural networks - or RBF 
 
 - Actually the circles that RBF detects has smooth transitions not hard ones to make the algorithm work better and to give us how confident we are about the result.
 
-  - ![](../images/PostsImages/02.png)
+  - ![](../../../../images/PostsImages/02.png)
   - It Makes training easier.
   - Training time are less.
   - The drop off curve (Smooth transitions) have many shapes, its so important to choose the best one.
@@ -32,7 +32,7 @@ This post will explain what is a radial basis function neural networks - or RBF 
     - `1/D`
     - `e^(-D)`
     - `1/D^2`
-    - `e^(-D^2)`			`#Used alot`			
+      - `e^(-D^2)`		`#Used alot`			
   - Where `D` is the distance between the center of the circle and the current point you are in.
 
 - How we get circles of different sizes?
@@ -45,6 +45,7 @@ This post will explain what is a radial basis function neural networks - or RBF 
 
   - ```
        /--C1-------->e^(-beta1 * (x-c1)^2)
+       ```
       /---C2-------->e^(-beta2 * (x-c2)^2)
     X 
       \---C3-------->e^(-beta3 * (x-c3)^2)
@@ -52,6 +53,7 @@ This post will explain what is a radial basis function neural networks - or RBF 
     ```
 
   - We learn `C1` & `beta1` (We can deal with  `C1` as weights and `beta1` as bias)
+    ```
 
 - Each neuron in the hidden layer consists of a radial basis function.
 
