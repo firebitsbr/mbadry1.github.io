@@ -44,16 +44,13 @@ This post will explain what is a radial basis function neural networks - or RBF 
 - First layer of the network:
 
   - ```
-       /--C1-------->e^(-beta1 * (x-c1)^2)
+          /--C1-------->e^(-beta1 * (x-c1)^2)
+         /---C2-------->e^(-beta2 * (x-c2)^2)
+       X
+         \---C3-------->e^(-beta3 * (x-c3)^2)
+          \--C4-------->e^(-beta4 * (x-c4)^2)
        ```
-      /---C2-------->e^(-beta2 * (x-c2)^2)
-    X 
-      \---C3-------->e^(-beta3 * (x-c3)^2)
-       \--C4-------->e^(-beta4 * (x-c4)^2)
-    ```
-
   - We learn `C1` & `beta1` (We can deal with  `C1` as weights and `beta1` as bias)
-    ```
 
 - Each neuron in the hidden layer consists of a radial basis function.
 
