@@ -20,7 +20,7 @@ layout: default
 {% if paginator.previous_page %}
  <li class="prev"><a href="/posts/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">Previous</a></li>
 {% endif %}
- <li><a {% if paginator.page == 1 %}class="active" {% endif %}href="/posts/">1</a></li>
+ <li><a {% if paginator.page == 1 %}class="active" {% endif %}href="{{ site.url}}/">1</a></li>
 {% for count in (2..paginator.total_pages) %}
  <li><a {% if paginator.page == count %}class="active" {% endif %}href="/posts/page{{ count }}">{{ count }}</a></li>
 {% endfor %}
