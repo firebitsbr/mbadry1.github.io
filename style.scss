@@ -23,8 +23,37 @@ body {
   color: $darkGray;
 }
 
-.pgggg{
-	margin-bottom: 40px;
+.pagination {
+	margin-bottom: 40px; 
+	ul {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		li {
+			list-style: none;
+			display: inline-block;
+			a {
+				font-size: 14px;
+				color: #404040;
+				min-width: 24px;
+				line-height: 24px;
+				display: block;
+				text-align: center; 
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			a.active {
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				border-radius: 50%;
+				background: #404040;
+				color: #fff;
+				text-decoration: none;
+				pointer-events: none;
+			}
+		}
+	}
 }
 
 .container {
