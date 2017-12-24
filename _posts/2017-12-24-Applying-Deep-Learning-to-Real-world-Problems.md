@@ -3,7 +3,7 @@ layout: post
 title: Applying Deep Learning to Real-world Problems - Medium post summary
 ---
 
-Applying Deep Learning to Real-world Problems is a [post](https://medium.com/merantix/applying-deep-learning-to-real-world-problems-ba2d86ac5837) in medium by [Rasmus Rothe](https://medium.com/@rasmus.rothe?source=post_header_lockup). It gives 3 lessons from work at Merantix. Here are the summary for the post.
+Applying Deep Learning to Real-world Problems is a [post](https://medium.com/merantix/applying-deep-learning-to-real-world-problems-ba2d86ac5837) in medium by [Rasmus Rothe](https://medium.com/@rasmus.rothe?source=post_header_lockup). It gives 3 lessons from his work at Merantix. Here are the summary for the post.
 
 ## Weakly labeled data
 
@@ -39,3 +39,7 @@ Applying Deep Learning to Real-world Problems is a [post](https://medium.com/mer
 - https://medium.com/merantix/applying-deep-learning-to-real-world-problems-ba2d86ac5837
 - https://github.com/merantix/picasso
 - https://medium.com/merantix/picasso-a-free-open-source-visualizer-for-cnns-d8ed3a35cfc5
+
+<br/>
+
+<br/>
