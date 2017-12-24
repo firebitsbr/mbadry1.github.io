@@ -308,6 +308,15 @@ footer {
 					text-decoration: underline;
 				}
 			}
+			a.active {
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				border-radius: 50%;
+				background: #404040;
+				color: #fff;
+				text-decoration: none;
+				pointer-events: none;
+			}
 		}
 	}
 }
