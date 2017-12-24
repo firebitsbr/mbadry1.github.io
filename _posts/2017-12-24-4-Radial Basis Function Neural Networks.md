@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Radial Basis Networks (RPF Nets)
+title: Radial Basis Networks (RBF Nets)
 ---
 
 This post will explain what is a radial basis function neural networks - or RBF Nets - in  a bullet style.
