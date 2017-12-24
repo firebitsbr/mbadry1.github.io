@@ -17,7 +17,7 @@ layout: default
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
  <ul>
-{% if paginator.previous_page and  paginator.page != 1%}
+{% if paginator.previous_page and paginator.page != 2%}
  <li class="prev"><a href="/posts/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">Previous</a></li>
 {% endif %}
  <li><a {% if paginator.page == 1 %}class="active" {% endif %}href="{{ site.baseurl }}/">1</a></li>
