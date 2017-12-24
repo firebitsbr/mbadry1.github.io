@@ -9,7 +9,7 @@ title: Tensorflow playground
 
 - Deep playground is an interactive visualization of neural networks, written in typescript using d3.js. 
 - Its fun to see how NNs work in your browser.
-- ![](../../../../images/PostsImages/03.png)
+- ![](https://mbadry1.github.io/images/PostsImages/03.png)
 - Site link: http://playground.tensorflow.org
 - It can also be deployed locally on a machine that contains python and tensorflow to add more samples as you desire.
 
