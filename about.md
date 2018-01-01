@@ -6,7 +6,7 @@ permalink: /about/
 
 A deep learning researcher, a .NET developer, and a good learner.
 
-My Github profile summary: https://github-profile-summary.com/user/mbadry1
+My Github profile summary: [https://github-profile-summary.com/user/mbadry1](https://github-profile-summary.com/user/mbadry1)
 
 ### More Information
 
